@@ -51,13 +51,19 @@ article {
     background-color: var(--secondary-color);
     flex-direction: row-reverse;
     position: absolute;
-    top: 40%;
+    top: 70%;
     margin: 20px;
     padding: 15px;
 }
 
 article p {
     padding: 0 25px 0 25px;
+}
+
+.adv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
 
 footer {
