@@ -9,50 +9,62 @@ body {
     font-family: "Merriweather", serif;
     background-color: var(--acient2-color);
     color: black;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
 }
 
 .hero {
     position: relative;
-    width: 100%;
-    max-width: 1200px; /* Adjust width as needed */
-    margin: auto;
-    overflow: hidden;
 }
 
-.hero img {
-    width: 100%;
-    display: block;
-}
-
-.hero h1 {
+h1 {
     position: absolute;
     top: 0%;
-    left: 5%;
-    color: var(--primary-color);
-    font-size: 2.5rem;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    left: 40%;
+    color: aliceblue;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
 }
 
-.hero article {
+.hero {
+    width: 100%;
+    height: 600px;
+}
+
+article {
+    display: flex;
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    flex-direction: row-reverse;
     position: absolute;
-    bottom: 25%;
-    left: 1%;
-    width: 40%;
-    background-color: rgba(0, 0, 0, 0.7); /* Dark background with opacity */
-    color: white;
+    top: 40%;
+    margin: 20px;
     padding: 15px;
-    border-radius: 8px;
 }
 
-.hero article img {
-    float: right;
-    margin-left: 10px;
-    border-radius: 5px;
+article p {
+    padding: 0 25px 0 25px;
 }
 
-h2 {
-    color: var(--primary-color);
-    /* font-size: 2rem;
-    text-align: center;
-    margin: 20px 0; */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--acient1-color);
 }
+
+
+
