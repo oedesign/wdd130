@@ -80,13 +80,13 @@ h1 {
 article {
     display: flex;
     border: 1px solid var(--primary-color);
-    background-color: var(--secondary-color);
+    background-color: rgba(255, 255, 255, 0.8);
     flex-direction: row-reverse;
     position: absolute;
     top: 40%;
     margin: 20px;
     padding: 15px;
-    color: var(--acient2-color);
+    color: var(black);
 }
 
 article p {
