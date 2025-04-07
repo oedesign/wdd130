@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="poll-form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>WDD 130 | Oluwaseyi Elujoba | HTML Form - User Poll</header>
+    <header>
+        <h1>WDD 130 | Oluwaseyi Elujoba | HTML Form - User Poll</h1>
+    </header>
     <main>
-        <form action="">
-            <fieldset>
-                <legend>Contact Information</legend>
-                <!-- form elements goes here -->
-                 <label for="">Full Name</label>
-                <input type="text" id="fullname" name="fullname">
-                <!-- form elements goes here -->
-                <label for="">Email</label>
-                <input type="email" id="useremail" name="useremail">
-            </fieldset>
+        <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Full Name: <input type="text" name="fullname"></label>
+            <div class="form-item column2">
+            <label>Email: <input type="email" name="useremail"></label>
+            </div>
+        </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <div>
                 <label for="browsers">What is your favourite browsers</label>
                 <select name="browsers" id="browsers">
                     <option value="chrome">Chrome</option>
@@ -30,12 +35,17 @@
                     <option value="google">Google</option>
                     <option value="Yahoo.mail">Yahoo.Mail</option>
                 </select>
+                </div>
+                <div class="households">
                 <label for="pet">Do you have a household pet</label>
                 <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="places">
                 <label for="feedback">List of places you have lived:</label>
                 <textarea name="feedback" id="feedback" rows="4" placeholder="Mushin, Surulere, Ikorodu and others"></textarea>
+                </div>
             </fieldset>
-            <button>Submit</button>
+            <button>Submit Poll</button>
         </form>
     </main>
     <footer>&copy; 2025 | HTML Form - Poll Activity | Oluwaseyi Elujoba</footer>
