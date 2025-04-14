@@ -20,9 +20,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--acient1-color);
-    text-align: center;
-    
+    color: black;
+    text-align: center;   
 }
 
 
@@ -53,7 +52,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--acient2-color);
+    color: black;
     font-size: 20px;
 }
 
@@ -67,15 +66,15 @@ nav ul li a {
     position: relative;
 }
 
-h1 {
+/* h1 {
     position: absolute;
     top: -270px;
     left: 40%;
     color: var(--acient2-color);
     /* border: 1px solid var(--primary-color); */
     /* background-color: var(--primary-color); */
-    font-size: 40px;
-}
+    /* font-size: 40px; 
+} */
 
 .hero {
     width: 100%;
@@ -165,4 +164,32 @@ form {
     width: 50%;
     margin: 0 auto;
     background-color: var(--primary-color);
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: var(--primary-color); */
+    padding: 20px;
+    
+}
+
+button {
+    margin: 0 auto;
+}
+
+.purpose {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: var(--primary-color); */
+
+}
+.offering {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: var(--primary-color); */
+    margin-bottom: 50px;
+
 }
