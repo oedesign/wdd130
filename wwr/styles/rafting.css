@@ -181,16 +181,15 @@ button {
 }
 
 .purpose {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     /* background-color: var(--primary-color); */
 
 }
 .offering {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     /* background-color: var(--primary-color); */
-    margin-bottom: 50px;
 
 }
 
