@@ -66,15 +66,15 @@ nav ul li a {
     position: relative;
 }
 
-/* h1 {
+ .hero h1 {
     position: absolute;
     top: -270px;
     left: 40%;
     color: var(--acient2-color);
-    /* border: 1px solid var(--primary-color); */
-    /* background-color: var(--primary-color); */
-    /* font-size: 40px; 
-} */
+     border: 1px solid var(--primary-color); 
+     background-color: var(--primary-color); 
+     font-size: 40px; 
+} 
 
 .hero {
     width: 100%;
@@ -222,4 +222,8 @@ table th {
 table td {
     background-color: var(--acient2-color);
     color: black;
+}
+
+.news-letter {
+    margin-bottom: 50px;
 }
