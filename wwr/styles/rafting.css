@@ -206,12 +206,12 @@ button {
     justify-content: space-evenly;
 }
 
-table {
+table, th, td {
     border: 1px solid black;
     width: 50%;
     margin: 0 auto;
-    background-color: black;
     margin-bottom: 50px;
+    border-collapse: collapse;
 }
 
 table th {
