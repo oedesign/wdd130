@@ -228,3 +228,7 @@ table td {
 .news-letter {
     margin-bottom: 50px;
 }
+
+.hero h1 {
+    color: black;
+}
