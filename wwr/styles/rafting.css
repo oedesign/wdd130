@@ -184,13 +184,15 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* background-color: var(--primary-color); */
+    margin-left: 120px;
 
 }
 .offering {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* background-color: var(--primary-color); */
-
+    margin-left: 120px;
+    margin-bottom: 40px;
 }
 
 .call-to-action2 {
